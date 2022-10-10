@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="uname" value="efg@xyz.com"/>
+    <parameter name="pwd" value="Abc@1234"/>
+    <classes>
+      <class name="testcases.SimplilearnLoginTest">
+        <methods>
+          <include name="DataClean"/>
+          <include name="Test2" invocation-numbers="0"/>
+          <include name="TearDown"/>
+          <include name="Test3"/>
+          <include name="Test1"/>
+          <include name="SetUp"/>
+          <include name="DataSetUp"/>
+        </methods>
+      </class> <!-- testcases.SimplilearnLoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
